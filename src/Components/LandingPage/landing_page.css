@@ -1,0 +1,1268 @@
+/*
+	@name landing_page
+*/
+/* Only edit this if you know what you are doing! */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial";
+  overflow-x: hidden;
+}
+
+/* Only edit this if you know what you are doing! */
+img {
+  position: absolute;
+  display: block;
+  margin: 0px;
+  border: none;
+  padding: 0px;
+}
+
+/* Only edit this if you know what you are doing! */
+div {
+  position: absolute;
+}
+
+#content-container {
+  display: block;
+  position: relative;
+  width: 1440px;
+  width: 1440px;
+  height: 2973px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#_bg__landing_page {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 2973px;
+  background: rgba(248, 252, 255, 1);
+}
+
+#group_1000001583 {
+  top: 193px;
+  left: 550px;
+  width: 841px;
+  height: 453px;
+}
+#header_card {
+  top: 0px;
+  left: 0px;
+  width: 841px;
+  height: 453px;
+}
+#bg {
+  top: 0px;
+  left: 68px;
+  width: 773px;
+  height: 453px;
+}
+
+#bg_ek1 {
+  top: 0px;
+  left: 0px;
+  width: 773px;
+  height: 453px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0);
+  background: -webkit-linear-gradient(
+    -222.67755631545deg,
+    rgba(0, 206, 209, 1) 0%,
+    rgba(20, 115, 230, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -222.67755631545deg,
+    rgba(0, 206, 209, 1) 0%,
+    rgba(20, 115, 230, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    -222.67755631545deg,
+    rgba(0, 206, 209, 1) 0%,
+    rgba(20, 115, 230, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -222.67755631545deg,
+    rgba(0, 206, 209, 1) 0%,
+    rgba(20, 115, 230, 1) 100%
+  );
+  background: linear-gradient(
+    -222.67755631545deg,
+    rgba(0, 206, 209, 1) 0%,
+    rgba(20, 115, 230, 1) 100%
+  );
+}
+
+#visa_card {
+  top: 37px;
+  left: 17px;
+  width: 427.48px;
+  height: 346.16px;
+  transform: rotate(-27deg);
+}
+
+#rectangle_3798 {
+  top: -12px;
+  left: 98px;
+  width: 230px;
+  height: 370px;
+
+  -ms-transform: rotate(63.39deg);
+  -o-transform: rotate(63.39deg);
+  -webkit-transform: rotate(63.39deg);
+  -moz-transform: rotate(63.39deg);
+  transform: rotate(63.39deg);
+  background: rgba(255, 255, 255, 0);
+  background: -webkit-linear-gradient(
+    -180deg,
+    rgba(34, 34, 35, 1) 0%,
+    rgba(43, 43, 49, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -180deg,
+    rgba(34, 34, 35, 1) 0%,
+    rgba(43, 43, 49, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    -180deg,
+    rgba(34, 34, 35, 1) 0%,
+    rgba(43, 43, 49, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -180deg,
+    rgba(34, 34, 35, 1) 0%,
+    rgba(43, 43, 49, 1) 100%
+  );
+  background: linear-gradient(
+    -180deg,
+    rgba(34, 34, 35, 1) 0%,
+    rgba(43, 43, 49, 1) 100%
+  );
+}
+
+#rectangle_3799 {
+  top: -84px;
+  left: 142px;
+  width: 70px;
+  height: 370px;
+
+  -ms-transform: rotate(63.39deg);
+  -o-transform: rotate(63.39deg);
+  -webkit-transform: rotate(63.39deg);
+  -moz-transform: rotate(63.39deg);
+  transform: rotate(63.39deg);
+  background: rgba(255, 255, 255, 0);
+  background: -webkit-linear-gradient(
+    -167.92416988429deg,
+    rgba(34, 34, 35, 1) 0%,
+    rgba(43.38, 43.38, 48.87, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -167.92416988429deg,
+    rgba(34, 34, 35, 1) 0%,
+    rgba(43.38, 43.38, 48.87, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    -167.92416988429deg,
+    rgba(34, 34, 35, 1) 0%,
+    rgba(43.38, 43.38, 48.87, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -167.92416988429deg,
+    rgba(34, 34, 35, 1) 0%,
+    rgba(43.38, 43.38, 48.87, 1) 100%
+  );
+  background: linear-gradient(
+    -167.92416988429deg,
+    rgba(34, 34, 35, 1) 0%,
+    rgba(43.38, 43.38, 48.87, 1) 100%
+  );
+}
+
+#color_gold {
+  top: 100px;
+  left: 332px;
+  width: 43px;
+  height: 32px;
+}
+
+#rectangle {
+  top: 0px;
+  left: 0px;
+  width: 45.8px;
+  height: 34.8px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1.4px solid #595959;
+  background: rgba(255, 255, 255, 0);
+  background: -webkit-linear-gradient(
+    -228.33212436389deg,
+    rgba(251, 201, 38, 1) 0%,
+    rgba(255, 251, 204, 1) 21%,
+    rgba(195, 146, 46, 0.8) 55%,
+    rgba(238, 214, 136, 1) 91%,
+    rgba(255, 251, 204, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -228.33212436389deg,
+    rgba(251, 201, 38, 1) 0%,
+    rgba(255, 251, 204, 1) 21%,
+    rgba(195, 146, 46, 0.8) 55%,
+    rgba(238, 214, 136, 1) 91%,
+    rgba(255, 251, 204, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    -228.33212436389deg,
+    rgba(251, 201, 38, 1) 0%,
+    rgba(255, 251, 204, 1) 21%,
+    rgba(195, 146, 46, 0.8) 55%,
+    rgba(238, 214, 136, 1) 91%,
+    rgba(255, 251, 204, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -228.33212436389deg,
+    rgba(251, 201, 38, 1) 0%,
+    rgba(255, 251, 204, 1) 21%,
+    rgba(195, 146, 46, 0.8) 55%,
+    rgba(238, 214, 136, 1) 91%,
+    rgba(255, 251, 204, 1) 100%
+  );
+  background: linear-gradient(
+    -228.33212436389deg,
+    rgba(251, 201, 38, 1) 0%,
+    rgba(255, 251, 204, 1) 21%,
+    rgba(195, 146, 46, 0.8) 55%,
+    rgba(238, 214, 136, 1) 91%,
+    rgba(255, 251, 204, 1) 100%
+  );
+}
+
+#union {
+  top: 0.23px;
+  left: px;
+  width: 43px;
+  height: 31.54px;
+}
+
+#system_mc {
+  top: 140px;
+  left: 27px;
+  width: 63.44px;
+  height: 43.29px;
+}
+
+#vector {
+  top: 4.63px;
+  left: 22.29px;
+  width: 18.88px;
+  height: 34.03px;
+}
+
+#vector_ek1 {
+  top: 0.01px;
+  left: px;
+  width: 31.72px;
+  height: 43.28px;
+}
+
+#vector_ek2 {
+  top: 34.22px;
+  left: 61.19px;
+  width: 1.63px;
+  height: 0.84px;
+}
+
+#vector_ek3 {
+  top: px;
+  left: 31.72px;
+  width: 31.72px;
+  height: 43.29px;
+}
+
+#dr__roberto_lebr_o {
+  top: 262px;
+  left: 87px;
+  width: 230px;
+  height: 31px;
+  overflow: hidden;
+
+  -ms-transform: rotate(-26.5deg);
+  -o-transform: rotate(-26.5deg);
+  -webkit-transform: rotate(-26.5deg);
+  -moz-transform: rotate(-26.5deg);
+  transform: rotate(-26.5deg);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 4.8px;
+  color: rgba(0, 0, 0, 0.1);
+  opacity: 0.1;
+}
+#dr__roberto_lebr_o:before {
+  content: "Dr. Roberto Lebro";
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  color: #ffffff;
+}
+
+#y_ {
+  top: 28px;
+  left: 295px;
+  width: 133.72px;
+  height: 147.08px;
+  overflow: hidden;
+
+  -ms-transform: rotate(64deg);
+  -o-transform: rotate(64deg);
+  -webkit-transform: rotate(64deg);
+  -moz-transform: rotate(64deg);
+  transform: rotate(64deg);
+  font-family: Rounded Mplus 1c;
+  font-size: 64px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.25);
+  opacity: 0.25;
+}
+#y_:before {
+  content: "y!";
+  position: absolute;
+  top: 0px;
+  left: 4px;
+  color: #00ced1;
+}
+
+#frame_12 {
+  top: 25px;
+  left: -13px;
+  width: 1440px;
+  height: 898px;
+}
+#header {
+  top: 45px;
+  left: 68px;
+  width: 1299px;
+  height: 591px;
+}
+#group_1000001582 {
+  top: 188px;
+  left: 0px;
+  width: 1299px;
+  height: 403px;
+}
+#header_content {
+  top: 15px;
+  left: 81px;
+  width: 446px;
+  height: 248px;
+}
+
+#precisa_de_algu_m_que_entenda_como___a_rotina_e_quais_s_o_as_necessidades_do_advogado_moderno_ {
+  top: 0px;
+  left: 8px;
+  width: 467px;
+  height: 112.77px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: left;
+  line-height: 30px;
+  letter-spacing: 0.24px;
+  color: #535354;
+}
+
+#veio_ao_lugar_certo_ {
+  top: 105px;
+  left: 4px;
+  width: 439px;
+  height: 60.35px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 0.24px;
+  color: #535354;
+}
+
+#precifique_os_honor_rios_da_sua_carteira_e_escolha_a_forma_como_quer_receber_ {
+  top: 166px;
+  left: -4px;
+  width: 455px;
+  height: 98.66px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 0.24px;
+  color: #535354;
+}
+
+#simples__pr_tico__transparente_ {
+  top: 359px;
+  left: -6px;
+  width: 610px;
+  height: 69px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  padding-top: 6px;
+  margin-top: -6px;
+  letter-spacing: 0.36px;
+  color: #535354;
+}
+
+#header_content_ek1 {
+  top: 0px;
+  left: 1014px;
+  width: 284.8px;
+  height: 336px;
+}
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat_ {
+  top: -12px;
+  left: 0px;
+  width: 313.8px;
+  height: 353px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 30px;
+  letter-spacing: 0.24px;
+  color: #ffffff;
+}
+
+#navigation {
+  top: 0px;
+  left: 780px;
+  width: 285px;
+  height: 20px;
+}
+#frame_1000000709 {
+  top: 0px;
+  left: 0px;
+  width: 285px;
+  height: 20px;
+}
+
+#produtos {
+  top: 0px;
+  left: -2px;
+  width: 86px;
+  height: 27px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+  color: #404041;
+}
+
+#quem_somos {
+  top: 0px;
+  left: 118px;
+  width: 105px;
+  height: 30px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+  color: #404041;
+}
+
+#faq {
+  top: 0px;
+  left: 257px;
+  width: 38px;
+  height: 30px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+  color: #404041;
+}
+
+#placeholder {
+  top: 18px;
+  left: 30px;
+  width: 165px;
+  height: 23px;
+}
+
+#entre_ou_cadastre_se {
+  top: 0px;
+  left: 0px;
+  width: 185.5px;
+  height: 33.5px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+}
+
+#newsletter {
+  top: 2316px;
+  left: 0px;
+  width: 1440px;
+  height: 621px;
+}
+#newsletter_ek1 {
+  top: 56px;
+  left: 0px;
+  width: 1440px;
+  height: 466px;
+}
+
+#base {
+  opacity: 0.68999999761581;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 466px;
+  background: rgba(255, 153, 0, 90%);
+}
+
+#text {
+  top: 129px;
+  left: 199px;
+  width: 999px;
+  height: 124.98px;
+}
+
+#seja_um_yaller__agora_mesmo_e_fa_a_parte_dessa_revolu__o {
+  top: 0px;
+  left: 89px;
+  width: 975px;
+  height: 166.98px;
+  overflow: hidden;
+  font-family: Bai Jamjuree;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+#rectangle_3782 {
+  top: 4px;
+  left: 0px;
+  width: 8px;
+  height: 118.73px;
+  background: rgba(113, 129, 118, 1);
+}
+
+#navigation_ek1 {
+  top: 601px;
+  left: 144px;
+  width: 285px;
+  height: 20px;
+}
+#frame_1000000709_ek1 {
+  top: 0px;
+  left: 0px;
+  width: 285px;
+  height: 20px;
+}
+
+#produtos_ek1 {
+  top: 0px;
+  left: -2px;
+  width: 86px;
+  height: 27px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+  color: #404041;
+}
+
+#quem_somos_ek1 {
+  top: 0px;
+  left: 118px;
+  width: 105px;
+  height: 30px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+  color: #404041;
+}
+
+#faq_ek1 {
+  top: 0px;
+  left: 257px;
+  width: 38px;
+  height: 30px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+  color: #404041;
+}
+
+#yalla_ {
+  top: 578px;
+  left: 1198px;
+  width: 149px;
+  height: 79px;
+  overflow: hidden;
+  font-family: Rounded Mplus 1c;
+  font-size: 36px;
+  text-align: left;
+  color: #000000;
+}
+
+#footer {
+  top: 601px;
+  left: 1325px;
+  width: 88px;
+  height: 12.02px;
+}
+#social_icon {
+  top: 0px;
+  left: 0px;
+  width: 88px;
+  height: 12.02px;
+}
+
+#vector_ek4 {
+  top: 0px;
+  left: 0px;
+  width: 6px;
+  height: 12px;
+}
+
+#vector_ek5 {
+  top: 3px;
+  left: 38px;
+  width: 6.16px;
+  height: 6.16px;
+}
+
+#vector_ek6 {
+  top: 0px;
+  left: 35px;
+  width: 12px;
+  height: 12.02px;
+}
+
+#vector_ek7 {
+  top: 2px;
+  left: 75px;
+  width: 13px;
+  height: 9px;
+}
+
+#testimonial {
+  top: 1190px;
+  left: 0px;
+  width: 1440px;
+  height: 1182px;
+  background-color: white;
+}
+#group_1000001584 {
+  top: 61px;
+  left: 56px;
+  width: 1309px;
+  height: 335px;
+}
+#group_1000001585 {
+  top: 0px;
+  left: 0px;
+  width: 1309px;
+  height: 335px;
+}
+
+#rectangle_3806 {
+  top: 0px;
+  left: 0px;
+  width: 1309px;
+  height: 335px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  background: rgba(20, 115, 230, 1);
+}
+
+#testimonial_ek1 {
+  top: 79px;
+  left: 149px;
+  width: 815px;
+  height: 200px;
+}
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat__ek1 {
+  top: 88px;
+  left: 0px;
+  width: 844px;
+  height: 129px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: left;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+#quem_somos_ {
+  top: 0px;
+  left: -11px;
+  width: 484px;
+  height: 125px;
+  overflow: hidden;
+  font-family: Bai Jamjuree;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;
+  letter-spacing: 0.64px;
+  color: #f3f3f3;
+}
+
+#y__ek1 {
+  top: 35px;
+  left: 58px;
+  width: 201px;
+  height: 218px;
+  overflow: hidden;
+  font-family: Rounded Mplus 1c;
+  font-size: 96px;
+  text-align: left;
+  -ms-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  -o-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  -moz-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  color: #00ced1;
+}
+
+#group_1000001585_ek1 {
+  top: 396px;
+  left: 56px;
+  width: 1309px;
+  height: 670px;
+}
+#group_1000001585_ek2 {
+  top: 0px;
+  left: 0px;
+  width: 1309px;
+  height: 335px;
+}
+
+#rectangle_3806_ek1 {
+  opacity: 0.11999999731779;
+  top: 0px;
+  left: 0px;
+  width: 1309px;
+  height: 335px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  background: rgba(20, 115, 230);
+}
+
+#testimonial_ek2 {
+  top: 79px;
+  left: 149px;
+  width: 815px;
+  height: 200px;
+}
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat__ek2 {
+  top: 88px;
+  left: 0px;
+  width: 844px;
+  height: 129px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: left;
+  line-height: 28px;
+  color: #1473e6;
+}
+
+#miss_o {
+  top: 0px;
+  left: 0px;
+  width: 289px;
+  height: 125px;
+  overflow: hidden;
+  font-family: Bai Jamjuree;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 80px;
+  letter-spacing: 0.64px;
+  color: #1473e6;
+}
+
+#group_1000001586 {
+  top: 335px;
+  left: 0px;
+  width: 1309px;
+  height: 335px;
+}
+
+#rectangle_3806_ek2 {
+  top: 0px;
+  left: 0px;
+  width: 1309px;
+  height: 335px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  background: rgba(20, 115, 230, 1);
+}
+
+#testimonial_ek3 {
+  top: 79px;
+  left: 149px;
+  width: 815px;
+  height: 200px;
+}
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat__ek3 {
+  top: 88px;
+  left: 0px;
+  width: 844px;
+  height: 129px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: left;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+#vis_o {
+  top: 0px;
+  left: 0px;
+  width: 244px;
+  height: 125px;
+  overflow: hidden;
+  font-family: Bai Jamjuree;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 80px;
+  letter-spacing: 0.64px;
+  color: #f3f3f3;
+}
+
+#frame_13 {
+  top: 708px;
+  left: 0px;
+  width: 1440px;
+  height: 481px;
+}
+#group {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 481px;
+}
+
+#bg_ek2 {
+  opacity: 0.25;
+  top: 35px;
+  left: 0px;
+  width: 1440px;
+  height: 446px;
+  background: rgba(37.19, 247.7, 255, 1);
+}
+
+#frame_1000001583 {
+  top: 154px;
+  left: 120px;
+  width: 1236px;
+  height: 248px;
+}
+#text_ek1 {
+  top: 0px;
+  left: 0px;
+  width: 261px;
+  height: 248px;
+}
+
+#produto_1 {
+  top: 0px;
+  left: 0px;
+  width: 296px;
+  height: 59px;
+  overflow: hidden;
+  font-family: Bai Jamjuree;
+  font-size: 30px;
+  text-align: left;
+  line-height: 38px;
+  color: #1f1f1f;
+}
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_lab {
+  top: 84px;
+  left: 0px;
+  width: 277px;
+  height: 167px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: left;
+  line-height: 26px;
+  margin-top: -3.3333333333333px;
+  height: 183px;
+  letter-spacing: 0.32px;
+  color: #5f5f64;
+}
+
+#text_ek2 {
+  top: 6px;
+  left: 323px;
+  width: 263px;
+  height: 242px;
+}
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_lab_ek1 {
+  top: 78px;
+  left: 0px;
+  width: 284px;
+  height: 167px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: left;
+  line-height: 26px;
+  margin-top: -3.3333333333333px;
+  height: 183px;
+  letter-spacing: 0.32px;
+  color: #5f5f64;
+}
+
+#produto_2 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 59px;
+  overflow: hidden;
+  font-family: Bai Jamjuree;
+  font-size: 30px;
+  text-align: left;
+  line-height: 38px;
+  color: #1f1f1f;
+}
+
+#text_ek3 {
+  top: 6px;
+  left: 648px;
+  width: 263px;
+  height: 242px;
+}
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_lab_ek2 {
+  top: 78px;
+  left: 0px;
+  width: 284px;
+  height: 167px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: left;
+  line-height: 26px;
+  margin-top: -3.3333333333333px;
+  height: 183px;
+  letter-spacing: 0.32px;
+  color: #5f5f64;
+}
+
+#produto_2_ek1 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 59px;
+  overflow: hidden;
+  font-family: Bai Jamjuree;
+  font-size: 30px;
+  text-align: left;
+  line-height: 38px;
+  color: #1f1f1f;
+}
+
+#text_ek4 {
+  top: 6px;
+  left: 973px;
+  width: 263px;
+  height: 242px;
+}
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_lab_ek3 {
+  top: 78px;
+  left: 0px;
+  width: 284px;
+  height: 167px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: left;
+  line-height: 26px;
+  margin-top: -3.3333333333333px;
+  height: 183px;
+  letter-spacing: 0.32px;
+  color: #5f5f64;
+}
+
+#produto_2_ek2 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 59px;
+  overflow: hidden;
+  font-family: Bai Jamjuree;
+  font-size: 30px;
+  text-align: left;
+  line-height: 38px;
+  color: #1f1f1f;
+}
+
+#ellipse_711 {
+  top: 0px;
+  left: 645px;
+}
+
+#group_1000001587 {
+  top: 15px;
+  left: 45px;
+  width: 303px;
+  height: 206px;
+}
+
+#yalla__ek1 {
+  top: 0px;
+  left: 0px;
+  width: 404px;
+  height: 193px;
+  overflow: hidden;
+  font-family: Rounded Mplus 1c;
+  font-size: 96px;
+  text-align: left;
+  color: #000000;
+}
+#yalla__ek1:before {
+  position: absolute;
+  top: 0px;
+  left: 4px;
+  color: #00ced1;
+}
+
+.yalla__ek1__1 {
+  top: 0px;
+  left: 0px;
+  width: 404px;
+  height: 193px;
+  overflow: hidden;
+  font-family: Rounded Mplus 1c;
+  font-size: 96px;
+  text-align: left;
+  color: #00ced1;
+}
+.yalla__ek1__yalla {
+  float: left;
+  top: 0px;
+  left: 4px;
+  color: #000000;
+}
+
+#group_13 {
+  top: 123px;
+  left: 61px;
+  width: 181px;
+  height: 83px;
+}
+#content {
+  top: 0px;
+  left: 0px;
+  width: 181px;
+  height: 48px;
+}
+#frame_4 {
+  top: 0px;
+  left: 0px;
+  width: 181px;
+  height: 48px;
+}
+#group_1 {
+  top: 0px;
+  left: 0px;
+  width: 181px;
+  height: 48px;
+}
+
+#from_legal {
+  top: 0px;
+  left: -5px;
+  width: 202px;
+  height: 70px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: right;
+  -ms-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  -o-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  -moz-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  color: #333333;
+}
+
+#to_legal {
+  top: 35px;
+  left: 47px;
+  width: 171px;
+  height: 70px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  -ms-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  -o-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  -moz-text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+  color: #333333;
+}
+
+#placeholder_ek1 {
+  top: 18px;
+  left: 70px;
+  width: 85px;
+  height: 23px;
+}
+
+#vamos_l__ {
+  top: 0px;
+  left: 0px;
+  width: 105.5px;
+  height: 33.5px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* Add your custom CSS here */
+
+.cartao-bg {
+  width: 396px;
+  top: 76px;
+  left: 22px;
+  border-radius: 20px;
+}
+
+.circle-img {
+  width: 83px;
+}
+
+#vamosla {
+  left: 311px;
+  /* color: white; */
+  background-color: #0be06c;
+  width: 200px;
+  border-radius: 45px;
+  /* height: 46px; */
+  text-align: center;
+  padding: 18px;
+  top: -19px;
+}
+
+.spanvamosla {
+  /* margin-top: 20px; */
+  color: white;
+  font-stretch: condensed;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.yallatoplogo {
+  width: 285px;
+}
+
+.yallay {
+  color: white;
+}
+
+.yallae {
+  color: #00ced1;
+}
+
+.yallabottomlogo {
+  left: 10px;
+  width: 100px;
+  top: 8px;
+}
+
+.yaller {
+  color: #000000;
+}
+
+.yallere {
+  color: #00ced1;
+}
+
+.yallalink:link {
+  text-decoration: none;
+  color: black;
+}
+
+.yallalink:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.yallalink:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.yallalink:active {
+  text-decoration: none;
+  color: black;
+}

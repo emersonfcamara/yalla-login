@@ -1,0 +1,430 @@
+/*
+	@name login
+*/
+/* Only edit this if you know what you are doing! */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial";
+  overflow-x: hidden;
+}
+
+/* Only edit this if you know what you are doing! */
+img {
+  position: absolute;
+  display: block;
+  margin: 0px;
+  border: none;
+  padding: 0px;
+}
+
+/* Only edit this if you know what you are doing! */
+div {
+  position: absolute;
+}
+
+#content-container {
+  display: block;
+  position: relative;
+  width: 1440px;
+  width: 1440px;
+  height: 959.89672851562px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#_bg__login {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 959.9px;
+  background: rgba(255, 255, 255, 1);
+}
+
+#login {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 900px;
+}
+#left_content {
+  top: 0px;
+  left: -207px;
+  width: 1954px;
+  height: 1203px;
+}
+
+#bg {
+  top: 0px;
+  left: 1006px;
+  width: 948px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+  background: -webkit-linear-gradient(
+    -165.22303662225deg,
+    rgba(0, 210, 213, 1) 0%,
+    rgba(20, 115, 230, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -165.22303662225deg,
+    rgba(0, 210, 213, 1) 0%,
+    rgba(20, 115, 230, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    -165.22303662225deg,
+    rgba(0, 210, 213, 1) 0%,
+    rgba(20, 115, 230, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -165.22303662225deg,
+    rgba(0, 210, 213, 1) 0%,
+    rgba(20, 115, 230, 1) 100%
+  );
+  background: linear-gradient(
+    -165.22303662225deg,
+    rgba(0, 210, 213, 1) 0%,
+    rgba(20, 115, 230, 1) 100%
+  );
+}
+
+#group_2 {
+  top: 620px;
+  left: 0px;
+  width: 638px;
+  height: 583px;
+}
+
+#ellipse_1 {
+  top: 26px;
+  left: 81px;
+  width: 559px;
+  height: 559px;
+  -ms-border-radius: 278.5px / 278.5px;
+  -o-border-radius: 278.5px / 278.5px;
+  -moz-border-radius: 278.5px / 278.5px;
+  -webkit-border-radius: 278.5px / 278.5px;
+  border-radius: 278.5px / 278.5px;
+  border: 1px solid #0be06c;
+  background: rgba(255, 255, 255, 0);
+}
+
+#ellipse_2 {
+  top: 0px;
+  left: 0px;
+  width: 559px;
+  height: 559px;
+  -ms-border-radius: 278.5px / 278.5px;
+  -o-border-radius: 278.5px / 278.5px;
+  -moz-border-radius: 278.5px / 278.5px;
+  -webkit-border-radius: 278.5px / 278.5px;
+  border-radius: 278.5px / 278.5px;
+  border: 1px solid #0be06c;
+  background: rgba(255, 255, 255, 0);
+}
+
+#saiba_mais_ {
+  top: 8px;
+  left: 30px;
+  width: 104px;
+  height: 31px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+}
+
+#right_content {
+  top: 272px;
+  left: 955px;
+  width: 317px;
+  height: 453px;
+}
+#title {
+  top: 0px;
+  left: 0px;
+  width: 317px;
+  height: 453px;
+}
+
+#bem_vindo_de_volta_ {
+  top: 0px;
+  left: 0px;
+  width: 307px;
+  height: 57px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+}
+
+#fa_a_seu_login_abaixo {
+  top: 42px;
+  left: 0px;
+  width: 219px;
+  height: 40px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 18px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#esqueceu_a_senha_ {
+  opacity: 0.7;
+  top: 345px;
+  left: 100px;
+  width: 156px;
+  height: 31px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+}
+
+#_ainda_n_o_possui_uma_conta__registre_se_aqui_ {
+  opacity: 0.7;
+  top: 403px;
+  left: 0px;
+  width: 338px;
+  height: 61px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 22px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#placeholder {
+  top: -254px;
+  left: -841px;
+  width: 42px;
+  height: 23px;
+}
+
+#login_ek1 {
+  top: 0px;
+  left: 0px;
+  width: 62.5px;
+  height: 33.5px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+}
+
+#password {
+  top: 185px;
+  left: 0px;
+}
+#placeholder_ek1 {
+  top: 18px;
+  left: 26px;
+  width: 77px;
+  height: 24px;
+}
+
+#senha {
+  opacity: 0.3;
+  left: 32px;
+  height: 31px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 14px;
+  text-align: left;
+  color: #333333;
+}
+
+#bx_bxs_lock_alt {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+}
+
+#vector {
+  top: -3px;
+  left: 0px;
+  width: 26px;
+  height: 30px;
+}
+
+#email {
+  top: 109px;
+  left: 0px;
+}
+#placeholder_ek2 {
+  top: 18px;
+  left: 58px;
+  width: 116px;
+  height: 21px;
+}
+
+#email_ou_usu_rio {
+  opacity: 0.3;
+  top: 0px;
+  left: 0px;
+  height: 31px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 14px;
+  text-align: left;
+  color: #333333;
+}
+
+#image_1 {
+  top: 18px;
+  left: 26px;
+  width: 22px;
+  height: 22px;
+}
+
+#group_1000001581 {
+  top: 295px;
+  left: 88px;
+  width: 303px;
+  height: 206px;
+}
+
+#yalla_ {
+  top: 0px;
+  left: 0px;
+  width: 404px;
+  height: 193px;
+  overflow: hidden;
+  font-family: Rounded Mplus 1c;
+  font-size: 96px;
+  text-align: left;
+}
+
+#group_13 {
+  top: 123px;
+  left: 61px;
+  width: 181px;
+  height: 83px;
+}
+#content {
+  top: 0px;
+  left: 0px;
+  width: 181px;
+  height: 48px;
+}
+#frame_4 {
+  top: 0px;
+  left: 0px;
+  width: 181px;
+  height: 48px;
+}
+#group_1 {
+  top: 0px;
+  left: 0px;
+  width: 181px;
+  height: 48px;
+}
+
+#from_legal {
+  top: 0px;
+  left: -5px;
+  width: 202px;
+  height: 70px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: right;
+  color: #333333;
+}
+
+#to_legal {
+  top: 35px;
+  left: 47px;
+  width: 171px;
+  height: 70px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  color: #333333;
+}
+
+/* Add your custom CSS here */
+
+.borderround {
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 307px;
+  height: 20px;
+}
+
+.txtImput {
+  font-size: 12px;
+  width: 170px;
+  border: none;
+  height: 25px;
+}
+
+.bordergreen {
+  border-radius: 45px;
+  border: 2px solid #0be06c;
+  background-color: #0be06c;
+  padding: 20px;
+  width: 307px;
+  height: 20px;
+  top: 265px;
+  text-align: center;
+  color: white;
+}
+
+.saibaMais {
+    border: 2px solid #00d1d4;
+    padding: 5px;
+    background-color: #00d1d4;
+    top: 100px;
+    border-radius: 45px;
+    width: 125px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    left: 70px;
+}
+
+.yallalogo{
+  width: 274px;
+  top: 22px;;
+}
+
+.yalla-link:link {
+  text-decoration: none;
+  color: white;
+}
+
+.yalla-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.yalla-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.yalla-link:active {
+  text-decoration: none;
+  color: white;
+}
+
+.register-span{
+  margin-right: 5px;
+}

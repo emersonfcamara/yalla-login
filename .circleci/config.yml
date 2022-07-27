@@ -1,0 +1,62 @@
+version: 2.1
+orbs:
+  azure-cli: circleci/azure-cli@1.0.0
+jobs:
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: cimg/node:16.13.2
+    steps:
+      - checkout
+      - run:
+          name: Update NPM
+          command: "sudo npm install -g npm"
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Build React App
+          command: npm run build
+      - save_cache:
+          key: app-build-cache-{{ .Branch }}
+          paths:
+            - ./build
+      - persist_to_workspace:
+          # Must be an absolute path, or relative path from working_directory. This is a directory on the container which is
+          # taken to be the root directory of the workspace.
+          root: .
+          # Must be relative path from root
+          paths:
+            - ./build
+
+  deploy-to-azure:
+    executor: azure-cli/default
+    steps:
+      - attach_workspace:
+          # Must be absolute path or relative path from working_directory
+          at: ./build
+
+      - azure-cli/install
+      - run:
+          name: Deploy to Azure Blob Static Site
+          command: |
+            az storage blob upload-batch --account-name $AZ_STORAGE_NAME --account-key $AZ_STORAGE_KEY --destination '$web' --source ./build/* --overwrite
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+              branches:
+                only:
+                  - master
+      - deploy-to-azure:
+          requires:
+            - build
+      

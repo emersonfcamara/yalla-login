@@ -42,7 +42,7 @@ const LoginRightRegister = () => {
                 type="TextBox"
                 className="txtImput_Register"
                 title="Nome"
-                value="Nome"
+                placeholder="Nome"
               />
             </div>
           </div>
@@ -55,7 +55,7 @@ const LoginRightRegister = () => {
                 type="TextBox"
                 className="txtImput_Register"
                 title="Sobrenome"
-                value="Sobrenome"
+                placeholder="Sobrenome"
               />
             </div>
           </div>
@@ -70,7 +70,7 @@ const LoginRightRegister = () => {
                 type="Email"
                 className="txtImput_Register"
                 title="Email"
-                value="Email ou usuário"
+                placeholder="Email ou usuário"
               />
             </div>
           </div>
@@ -83,7 +83,7 @@ const LoginRightRegister = () => {
                 type="Email"
                 className="txtImput_Register"
                 title="Confirme Email"
-                value="Confirme Email"
+                placeholder="Confirme Email"
               />
             </div>
           </div>
@@ -97,7 +97,7 @@ const LoginRightRegister = () => {
               type="Password"
               className="txtImput_Register"
               title="Senha"
-              value="Confirme senha"
+              placeholder="Confirme senha"
             />
           </div>
         </div>
@@ -113,7 +113,7 @@ const LoginRightRegister = () => {
               type="Password"
               className="txtImput_Register"
               title="Confirme senha"
-              value="Confirme senha"
+              placeholder="Confirme senha"
             />
           </div>
         </div>

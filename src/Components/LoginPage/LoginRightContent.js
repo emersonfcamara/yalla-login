@@ -38,7 +38,7 @@ const LoginRightContent = () => {
               type="Password"
               className="txtImput"
               title="Senha"
-              value="123456789"
+              placeholder="123456789"
             />
           </div>
 
@@ -55,7 +55,7 @@ const LoginRightContent = () => {
               type="Email"
               className="txtImput"
               title="Email"
-              value="Email ou usuário"
+              placeholder="Email ou usuário"
             />
           </div>
         </div>

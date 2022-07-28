@@ -1,7 +1,7 @@
 const LoginSaibaMais = () => {
   return (
     <div className="saibaMais">
-      <a href="/" className="yalla-link">
+      <a href="https://styalladocs.z20.web.core.windows.net" className="yalla-link">
         <span>Saiba mais!</span>
       </a>
     </div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const LoginRightContent = () => {
   return (
     <div id="right_content">
@@ -12,9 +14,9 @@ const LoginRightContent = () => {
           <div id="_ainda_n_o_possui_uma_conta__registre_se_aqui_">
             <span>Ainda não possui uma conta?</span>
             <span className="register-span">
-              <a href="/" className="yalla-link">
+              <Link to={'/register'} className="yalla-link">
                 <b>Registre-se</b>
-              </a>
+              </Link>
             </span>
             <span>aqui!</span>
           </div>

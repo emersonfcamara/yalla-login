@@ -25,7 +25,7 @@ const LoginRightContent = () => {
 
       <div className="bordergreen">
         <span>
-          <a href="https://styallasystem.z20.web.core.windows.net" className="yalla-link">
+          <a href="http://sistema.yalla.tec.br" className="yalla-link">
             <b>Login</b>
           </a>
         </span>

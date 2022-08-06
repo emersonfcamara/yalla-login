@@ -38,7 +38,7 @@ const LoginRightContent = () => {
               type="Password"
               className="txtImput"
               title="Senha"
-              placeholder="123456789"
+              placeholder="*********"
             />
           </div>
 

@@ -47,6 +47,13 @@ jobs:
           name: Deploy to Azure Blob Static Site
           command: |
             az storage blob upload-batch --account-name $AZ_STORAGE_NAME --account-key $AZ_STORAGE_KEY --destination '$web' --source ./build/* --overwrite
+      - run:
+          name: Clean CDN Endpoint
+          command: |
+            az login --service-principal -u $PRINCIPAL_ID -p $PRINCIPAL_KEY --tenant $TENANT_ID
+            az account set --subscription $SUB_ID
+            az cdn endpoint purge --name lp-yalla --resource-group Yalla-POC --profile-name cdnp-yalla-sites --content-paths '/*' --verbose
+            
 workflows:
   version: 2
   build-deploy:
